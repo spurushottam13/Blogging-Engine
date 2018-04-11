@@ -1,0 +1,29 @@
+<html>
+<title>Blog Now</title>
+<script src="angular.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCGlU1CKNhRcQtNKUKEzIE_d3S45c7nqU4",
+    authDomain: "blogtraveo-d000d.firebaseapp.com",
+    databaseURL: "https://blogtraveo-d000d.firebaseio.com",
+    projectId: "blogtraveo-d000d",
+    storageBucket: "blogtraveo-d000d.appspot.com",
+    messagingSenderId: "215037101174"
+  };
+  firebase.initializeApp(config);
+</script>
+    
+<div ng-app="myApp" ng-controller="myCtrl">
+    Hello
+    <li ng-repeat="x in records">
+        
+        {{x}}
+    
+    </li>
+    
+    </div> 
+    
+<script src="adapter.js"></script>
+</html>

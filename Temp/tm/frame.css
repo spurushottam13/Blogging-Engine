@@ -1,0 +1,17 @@
+body{
+    background: #efefef;
+    margin: 0;
+}
+#header{
+    background: #cfcfcf;
+    color : #4245f4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    height: 5vh;
+    width: 100vw;
+    line-height: 10vh;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}

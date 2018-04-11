@@ -1,0 +1,10 @@
+
+var app =  {
+"Name":[
+    {"firstName":"Purushottam", "lastName":"Shukla"}, 
+    {"firstName":"Reeya",	"lastName":"Sheel"},
+    {"firstName":"Ashim", "lastName":"Guleria"}
+]
+}
+var fs = require('fs');
+    fs.writeFile("thing.json", app);
